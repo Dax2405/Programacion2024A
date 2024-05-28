@@ -1,7 +1,10 @@
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hola mundo";
-    return 0;
+    char name[100];
+    cout << "Ingrese su nombre!\n";
+    cin >> name;
+    cout << "Hola " << name << endl;
 }
